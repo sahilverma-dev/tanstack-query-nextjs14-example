@@ -1,12 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { usePokemonList } from "@/hooks/usePokemonList";
 import { Result } from "@/interfaces";
-import { useInfiniteQuery } from "@tanstack/react-query";
-
-import { pokemonInfiniteQueryOption } from "@/app/page";
-
-const usePokemonList = () => useInfiniteQuery(pokemonInfiniteQueryOption);
 
 const LoadingCard = () => (
   <div className="aspect-square flex flex-col items-center justify-center space-y-2 bg-zinc-800 p-4 rounded-lg shadow ">
