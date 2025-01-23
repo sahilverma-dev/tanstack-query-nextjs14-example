@@ -2,6 +2,8 @@
 
 This repository demonstrates how to use **TanStack Query** for server-side data fetching, hydration, and caching in a Next.js 14 application with the **App Router**. It includes examples of prefetching data on the server and hydrating it on the client for optimal performance and SEO.
 
+[Live Preview](https://tanstack-query-nextjs14-example.vercel.app/)
+
 ## Features
 
 - **Next.js 14 App Router**: Built using the latest Next.js features with support for the `app` directory.
